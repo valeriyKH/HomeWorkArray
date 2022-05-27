@@ -9,9 +9,6 @@ function advancedFilter(arr) {
   resultArr = arr
   .filter((arr) => arr % 3 === 0 && arr > 0) .map((arr) => arr * 10);
   console.log(resultArr);
-
-  // Ваш код
-
-  return resultArr; // array
+  return resultArr; 
 }
 
